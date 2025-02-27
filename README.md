@@ -4,8 +4,6 @@
 
 This project applies machine learning techniques to predict employee attrition and identify key factors contributing to turnover in an organization. Using HR analytics data, the model helps HR departments proactively address retention issues and develop targeted strategies to improve employee satisfaction.
 
-![HR Analytics Dashboard](https://raw.githubusercontent.com/yourusername/hr-analytics-attrition/main/results/figures/model_performance_metrics.png)
-
 ## 🎯 Key Features
 
 - **Data Exploration**: Comprehensive analysis of HR data to identify patterns and relationships
