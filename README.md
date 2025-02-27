@@ -21,7 +21,7 @@ This project applies machine learning techniques to predict employee attrition a
   
 **Evaluation**
 - Train-Test Split: A 70% training and 30% testing split was used.
-- - Evaluation Setup: Three predictive models proposed were tested. The models were compared based on out of sample accuracy to assess overall performance and precision, recall, F1-score, and ROC-AUC to evaluate their ability to predict the negative class (employees likely to leave). 
+- Evaluation Setup: Three predictive models proposed were tested. The models were compared based on out of sample accuracy to assess overall performance and precision, recall, F1-score, and ROC-AUC to evaluate their ability to predict the negative class (employees likely to leave). 
 
 ## 🚀 Performance
 ![Figure_2](https://github.com/user-attachments/assets/82402b2b-1873-47b5-91b8-874ac51e6f53)
