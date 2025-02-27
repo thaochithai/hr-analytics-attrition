@@ -4,7 +4,7 @@ This project applies machine learning techniques to predict employee attrition a
 ## 📊 Datas Exploration
   
 **Numerical Variables**
-![pairplot](https://github.com/user-attachments/assets/a6e1fc13-2c15-437e-a01f-de185c2ae001)
+![Figure_1](https://github.com/user-attachments/assets/6b25d65a-06cd-4631-8b73-882540276a97)
 ![Correlation](https://github.com/user-attachments/assets/92785fdc-f9e8-40f2-894d-f2da7fa86c55)
 
 **Key insights**
