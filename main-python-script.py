@@ -66,25 +66,11 @@ scaler = MinMaxScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-#Perform KMeans clustering
-kmeans = KMeans(n_clusters=3, random_state=42)
-X_train['cluster'] = kmeans.fit_predict(X_train_scaled)
-X_test['cluster'] = kmeans.predict(X_test_scaled)
-
-#Adding clustering as dummy variables for models
-X_train_clustered = pd.concat([X_train, pd.get_dummies(X_train['cluster'], prefix='cluster')], axis=1).drop(columns=['cluster'])
-X_test_clustered = pd.concat([X_test, pd.get_dummies(X_test['cluster'], prefix='cluster')], axis=1).drop(columns=['cluster'])
-
 #3/Modeling
 #Logistic Regression
 log_reg = LogisticRegression(max_iter=5000, solver='liblinear', random_state=42)
 log_reg.fit(X_train_scaled, y_train)
 y_pred_log_reg = log_reg.predict(X_test_scaled)
-
-#Logistic Regression (clustering)
-log_reg_clustered = LogisticRegression(max_iter=5000, solver='liblinear', random_state=42)
-log_reg_clustered.fit(X_train_clustered, y_train)
-y_pred_log_reg_clustered = log_reg_clustered.predict(X_test_clustered)
 
 #Random Forest
 rf = RandomForestClassifier(random_state=42)
