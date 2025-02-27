@@ -4,8 +4,7 @@ This project applies machine learning techniques to predict employee attrition a
 ## 📊 Datas Exploration
   
 **Numerical Variables**
-![Figure_1](https://github.com/user-attachments/assets/6b25d65a-06cd-4631-8b73-882540276a97)
-![Correlation](https://github.com/user-attachments/assets/92785fdc-f9e8-40f2-894d-f2da7fa86c55)
+![pairplot](https://github.com/user-attachments/assets/24f98fda-4fa4-4bd9-be29-ddb3ec79f442) ![Correlation](https://github.com/user-attachments/assets/92785fdc-f9e8-40f2-894d-f2da7fa86c55)
 
 **Key insights**
 1. **Satisfaction Impact**: Employee satisfaction level is the most influential factor in predicting turnover
